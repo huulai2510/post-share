@@ -13,7 +13,7 @@
               <div>
                 <div class="headline">{{user.username}}</div>
                 <div>Joined {{formatJoinDate(user.joinDate)}}</div>
-                <div class="hidden-xs-only font-weight-regular">{{user.favorites.length}}</div>
+                <div class="hidden-xs-only font-weight-regular">Post favorites: {{user.favorites.length}}</div>
                 <div class="hidden-xs-only font-weight-regular">{{userPosts.length}} Posts Added</div>
               </div>
             </v-card-title>
